@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Addtask from "./Component/Addtask";
+import ListTask from "./Component/ListTask";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container demo_wrap">
+      {/* <img src="https://cdn.wallpapersafari.com/45/75/r2HRgQ.jpg" /> */}
+      <Addtask/>
+      <ListTask/>
     </div>
-  );
+  )
 }
 
 export default App;

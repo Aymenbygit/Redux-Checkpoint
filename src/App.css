@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.input_up{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+body{
+  /* background-image: url(https://miro.medium.com/max/3840/1*TkU7i6Jkr9iqQCELBmzbAQ.jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover ; */
+  background-color:#00ffa1 ;
+}
+
+/* .demo_wrap {
+  position: relative;
+  padding: 16px;
+}
+.demo_wrap img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+} */
