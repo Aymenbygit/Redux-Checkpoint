@@ -16,7 +16,11 @@ const initialeState = [
         isEdited: false
     }
 ]
-
+export const VISIBILITY_FILTERS = {
+    ALL: "all",
+    DONE: "done",
+    UNDONE: "undone"
+  }
 const todoReducer = (state = initialeState, action) => {
     switch (action.type) {
         case ADD_TASK: return state.concat(action.payload)
